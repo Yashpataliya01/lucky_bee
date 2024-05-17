@@ -1,0 +1,40 @@
+{
+  "name": "luckybee_grn",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --base=/assets/grn_luckybee/luckybee_grn/ && yarn copy-html-entry",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "copy-html-entry": "cp ../grn_luckybee/public/luckybee_grn/index.html ../grn_luckybee/www/luckybee_grn.html"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@mui/material": "^5.15.17",
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
+    "convert-base64-to-image": "^0.0.16",
+    "frappe-js-sdk": "^1.5.0",
+    "frappe-react-sdk": "^1.7.0",
+    "jsbarcode": "^3.11.6",
+    "react": "^18.3.1",
+    "react-bootstrap": "^2.10.2",
+    "react-dom": "^18.3.1",
+    "react-html5-camera-photo": "^1.5.11",
+    "react-slideshow-image": "^4.3.1",
+    "react-webcam": "^7.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.6",
+    "vite": "^5.2.0"
+  }
+}
