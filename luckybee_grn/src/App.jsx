@@ -368,6 +368,7 @@ const App = () => {
           description: currItem.description,
           custom_item_images_: prev,
         });
+        setfileimage([]);
         PurchaseUpdateDocInvoice();
       } else {
         PurchaseUpdateDocInvoice();

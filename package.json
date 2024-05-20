@@ -1,0 +1,15 @@
+{
+  "name": "grn_luckybee",
+  "version": "1.0.0",
+  "description": "yash",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "cd luckybee_grn && yarn install",
+    "dev": "cd luckybee_grn && yarn dev",
+    "build": "cd luckybee_grn && yarn build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
